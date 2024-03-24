@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+.calce{
+    top: 10px;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #222;
+    border-radius: 12px;
+   box-shadow: 4px 4px 30px;
+}
+
+.screen{
+    height: 150px;
+    width: 290px;
+    border-radius: 12px;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: black;
+    text-align: right;
+    pointer-events: none;
+    color: aliceblue;
+}
+
+button{
+    width: 60px;
+    height: 52px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+border: 1px solid black;
+flex: 0 0 22%;
+margin: 3px;
+}
+
+.btns{
+    display: flex;
+    padding: 26px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.operation{
+    background-color: rgb(245, 146, 62);
+    color: whitesmoke;
+}
+.number{
+    background-color: rgb(124, 123, 122);
+    color: whitesmoke;
+}
+h5{
+    color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.res{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.clr{
+    background-color: red;
+    color: whitesmoke;
+}
+.del{
+    background-color: rgb(230, 226, 226);
+    color: rgb(0, 0, 0);
+}
